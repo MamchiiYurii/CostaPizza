@@ -1,0 +1,118 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/menu_style.css">
+    <meta name="viewport" content="width = 1050, user-scalable = no" />
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="extras/modernizr.2.5.3.min.js"></script>
+    <title>Costa Pizza menu</title>
+</head>
+
+<body>
+
+    <div class="container main">
+
+        <!--          navigation panel-->
+        <div class="row navigation">
+            <div class="navbar navbar-static-top">
+                <div class="container">
+                    <div class="container collapse navbar-collapse navBtn navbar-static-top" id="responsive-menu">
+                        <ul class="nav navbar-nav navBtn">
+                           <li><a href="index.html" id="main">Головна</a></li>
+                            <li><a href="gallery.html" id="gallery">Галерея</a></li>
+                            <li><a href="http://infood.com.ua/lviv/uk/633--costa-pizza" id="delivery">Доставка</a></li>
+                            <li><a href="feedback.html" id="feedback">Відгуки</a></li>
+                            <li><a href="contact.html" id="contact">Контакти</a></li>
+                            <li><a href="career.html" id="career">Ваканcії</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="woodplate">
+    <div class="flipbook-viewport">
+        <div class="container">
+            <div class="flipbook">
+                <div style="background-image:url(img/menu/1.jpg)"></div>
+                <div style="background-image:url(img/menu/2.jpg)"></div>
+                <div style="background-image:url(img/menu/3.jpg)"></div>
+                <div style="background-image:url(img/menu/4.jpg)"></div>
+                <div style="background-image:url(img/menu/5.jpg)"></div>
+                <div style="background-image:url(img/menu/6.jpg)"></div>
+                <div style="background-image:url(img/menu/7.jpg)"></div>
+                <div style="background-image:url(img/menu/8.jpg)"></div>
+                <div style="background-image:url(img/menu/9.jpg)"></div>
+                <div style="background-image:url(img/menu/10.jpg)"></div>
+                <div style="background-image:url(img/menu/11.jpg)"></div>
+                <div style="background-image:url(img/menu/12.jpg)"></div>
+                <div style="background-image:url(img/menu/13.jpg)"></div>
+                <div style="background-image:url(img/menu/14.jpg)"></div>
+                <div style="background-image:url(img/menu/15.jpg)"></div>
+                <div style="background-image:url(img/menu/16.jpg)"></div>
+                <div style="background-image:url(img/menu/17.jpg)"></div>
+                <div style="background-image:url(img/menu/18.jpg)"></div>
+                <div style="background-image:url(img/menu/19.jpg)"></div>
+                <div style="background-image:url(img/menu/20.jpg)"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+    var x="5", y=10;
+var result = x+y;
+console.log(result);
+        function loadApp() {
+
+            // Create the flipbook
+
+            $('.flipbook').turn({
+                // Width
+
+                width: 922,
+
+                // Height
+
+                height: 600,
+
+                // Elevation
+
+                elevation: 50,
+
+                // Enable gradients
+
+                gradients: true,
+
+                // Auto center this flipbook
+
+                autoCenter: true
+
+            });
+        }
+
+        // Load the HTML4 version if there's not CSS transform
+
+        yepnope({
+            test: Modernizr.csstransforms,
+            yep: ['lib/turn.js'],
+            nope: ['lib/turn.html4.min.js'],
+            both: ['css/menu_style.css'],
+            complete: loadApp
+        });
+    </script>
+
+</body>
+
+</html>

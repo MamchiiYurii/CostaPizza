@@ -1,0 +1,240 @@
+body {
+    background-image: url(../img/bgr/62_011.jpg);
+
+}
+
+.logo {
+    z-index: 2;
+    position: absolute;
+}
+
+.logo a {
+    margin-right: -50px;
+    margin-top: 2px;
+    float: right;
+}
+
+.logo a>img {
+    width: 300px;
+    height: 200px;
+}
+
+.slider {
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.navigation {
+    z-index: 2;
+    margin-top: 15px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    position: absolute;
+}
+
+.navBtn a {
+    width: 120px;
+    height: 100px;
+    margin-top: 15px;
+    text-shadow: 1px 1px rgba(232, 214, 167, 0.62);
+    font-size: 23px;
+    color: rgb(72, 19, 19);
+    background-color: rgba(52, 10, 10, 0.02);
+    text-align: center;
+}
+
+.navBtn a:hover {
+    width: 120px;
+    height: 53px;
+    transition: 0.7s;
+    font-size: 23px;
+    text-shadow: 1px 1px rgba(52, 10, 10, 0.99);
+    color: rgb(232, 214, 167);
+    border-radius: 15px;
+    font-family: cursive;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+    background-color: rgba(52, 10, 10, 0.65);
+}
+
+.main {
+    margin: auto;
+    text-align: center;
+}
+
+#section1 {
+    top: 500px;
+    position: absolute;
+}
+
+#section2 {
+    position: absolute;
+    top: 1100px;
+}
+
+#section3 {
+    position: absolute;
+    top: 2200px;
+}
+
+#section4 {
+    position: absolute;
+    top: 3300px;
+}
+
+.galeryMenuDelivery {
+    height: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.foto1 {
+    height: 500px;
+    width: 100%;
+}
+
+.foto1 img {
+    margin: auto;
+    width: 280px;
+    height: 450px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+content {
+    width: 100%;
+}
+
+.gmd {
+    width: 100%;
+    background-image: url(../img/pizza/369063.jpg);
+    background-size: cover;
+    z-index: -5;
+}
+
+.menuBtn {
+    background-image: url(../img/pizzaImgForBtn/a.png);
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 100px;
+    z-index: 0;
+}
+
+.galeryBtn {
+    background-image: url(../img/pizzaImgForBtn/b.png);
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.delivBtn {
+    background-image: url(../img/pizzaImgForBtn/c.png);
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.contBtn {
+    background-image: url(../img/pizzaImgForBtn/f.png);
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.vacancBtn {
+    background-image: url(../img/pizzaImgForBtn/d.png);
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.feedbackBtn {
+    background-image: url(../img/pizzaImgForBtn/g.png);
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.roundBtn {
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 3px 2px rgba(230, 217, 181, 0.74);
+    font-size: 40px;
+    color: rgb(72, 19, 19);
+    text-decoration: none;
+}
+
+.boxik:hover {
+    transition: 0.7s;
+    font-size: 65px;
+    text-shadow: 5px 5px rgba(52, 10, 10, 0.99);
+    color: rgb(232, 214, 167);
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 115px;
+    margin-right: 5px;
+    background-color: rgba(242, 7, 7, 0.73);
+}
+
+.roundBtn:hover {
+    transition: 0.7s;
+    font-size: 50px;
+    text-shadow: 5px 4px rgba(52, 10, 10, 0.99);
+    color: rgb(232, 214, 167);
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 90px;
+    left: 555px;
+}
+
+.cvf {
+    width: 100%;
+    background-image: url(../img/pizza/369063.jpg);
+    background-size: cover;
+    z-index: -5;
+}
+
+.contVacDel {
+    height: 500px;
+    width: 100%;
+    margin: auto;
+}
