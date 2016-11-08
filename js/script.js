@@ -1,8 +1,8 @@
 //--------------------------------Paralax for main page-----------------------------
-$(document).ready(
-    function () {
+/*$(document).ready(
+    function() {
         dotNav(); // викликаємо функцію одразу, щоб як тілкьи загружався док. вона вже могла викор.
-        $(window).bind("scroll", function (event) {
+        $(window).bind("scroll", function(event) {
             parallaxScroll();
             dotNav();
         })
@@ -10,10 +10,10 @@ $(document).ready(
 
 
         $("nav#dots a").hover( // функція вспливання секції
-            function () {
+            function() {
                 $(this).prev("h1").show()
             },
-            function () {
+            function() {
                 $(this).prev("h1").hide()
             }
         )
@@ -25,7 +25,7 @@ function parallaxScroll() { // розраховуємо свій час для �
     $("#parallax-bg1").css("top", (0 - (scrolled * 0.25)) + "px");
     $("#parallax-bg2").css("top", (0 - (scrolled * 0.5)) + "px");
     $("#parallax-bg3").css("top", (0 - (scrolled * 0.75)) + "px");
-}
+}*/
 
 //--------------------------------menu pages-----------------------------
 function addPage(page, book) {
@@ -127,3 +127,46 @@ function isChrome() {
     return navigator.userAgent.indexOf('Chrome') != -1;
 
 }
+
+//--------------------------------------------------Gallery-----------------------
+//Start slider gallery
+$(document).ready(function () {
+    $(".fancybox-thumb")
+        .attr('rel', 'gallery')
+        .fancybox({
+            prevEffect: 'none',
+            nextEffect: 'none',
+            padding: 0,
+            margin: 5,
+            nextEffect: 'fade',
+            prevEffect: 'none',
+            autoCenter: false,
+            afterLoad: function () {
+                $.extend(this, {
+                    aspectRatio: false,
+                    type: 'html',
+                    width: '100%',
+                    height: '100%',
+                    content: '<div class="fancybox-thumb" style="background-image:url(' + this.href + '); background-size: cover; background-position:50% 50%;background-repeat:no-repeat;height:100%;width:100%;" /></div>'
+                });
+            },
+            beforeShow: function () {
+                /* Disable right click */
+                $.fancybox.wrap.bind("contextmenu", function (e) {
+                    return false;
+                });
+
+            },
+            helpers: {
+                title: {
+                    type: 'outside'
+                },
+                thumbs: {
+                    width: 50,
+                    height: 50
+                }
+
+            }
+
+        });
+});
