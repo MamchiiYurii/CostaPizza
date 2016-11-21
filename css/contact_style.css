@@ -1,0 +1,263 @@
+     .gradient {
+         width: 100%;
+         height: 100%;
+         float: left;
+         margin: 0;
+         position: fixed;
+         background: rgba(117, 26, 25, 1);
+         background: -moz-linear-gradient(top, rgba(117, 26, 25, 1) 0%, rgba(117, 26, 25, 1) 41%, rgba(181, 30, 13, 1) 90%, rgba(246, 41, 12, 1) 100%);
+         background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(117, 26, 25, 1)), color-stop(41%, rgba(117, 26, 25, 1)), color-stop(90%, rgba(181, 30, 13, 1)), color-stop(100%, rgba(246, 41, 12, 1)));
+         background: -webkit-linear-gradient(top, rgba(117, 26, 25, 1) 0%, rgba(117, 26, 25, 1) 41%, rgba(181, 30, 13, 1) 90%, rgba(246, 41, 12, 1) 100%);
+         background: -o-linear-gradient(top, rgba(117, 26, 25, 1) 0%, rgba(117, 26, 25, 1) 41%, rgba(181, 30, 13, 1) 90%, rgba(246, 41, 12, 1) 100%);
+         background: -ms-linear-gradient(top, rgba(117, 26, 25, 1) 0%, rgba(117, 26, 25, 1) 41%, rgba(181, 30, 13, 1) 90%, rgba(246, 41, 12, 1) 100%);
+         background: linear-gradient(to bottom, rgba(117, 26, 25, 1) 0%, rgba(117, 26, 25, 1) 41%, rgba(181, 30, 13, 1) 90%, rgba(246, 41, 12, 1) 100%);
+         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#751a19', endColorstr='#f6290c', GradientType=0);
+     }
+     
+     .sidenav {
+         width: 300px;
+         height: 100%;
+         float: left;
+         margin: 0;
+         position: fixed;
+         background: rgba(117, 26, 25, 1);
+         background: -moz-linear-gradient(top, rgba(117, 26, 25, 1) 0%, rgba(117, 26, 25, 1) 41%, rgba(181, 30, 13, 1) 90%, rgba(246, 41, 12, 1) 100%);
+         background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(117, 26, 25, 1)), color-stop(41%, rgba(117, 26, 25, 1)), color-stop(90%, rgba(181, 30, 13, 1)), color-stop(100%, rgba(246, 41, 12, 1)));
+         background: -webkit-linear-gradient(top, rgba(117, 26, 25, 1) 0%, rgba(117, 26, 25, 1) 41%, rgba(181, 30, 13, 1) 90%, rgba(246, 41, 12, 1) 100%);
+         background: -o-linear-gradient(top, rgba(117, 26, 25, 1) 0%, rgba(117, 26, 25, 1) 41%, rgba(181, 30, 13, 1) 90%, rgba(246, 41, 12, 1) 100%);
+         background: -ms-linear-gradient(top, rgba(117, 26, 25, 1) 0%, rgba(117, 26, 25, 1) 41%, rgba(181, 30, 13, 1) 90%, rgba(246, 41, 12, 1) 100%);
+         background: linear-gradient(to bottom, rgba(117, 26, 25, 1) 0%, rgba(117, 26, 25, 1) 41%, rgba(181, 30, 13, 1) 90%, rgba(246, 41, 12, 1) 100%);
+         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#751a19', endColorstr='#f6290c', GradientType=0);
+     }
+     
+     .logo a>img {
+         width: 300px;
+         height: 200px;
+     }
+     
+     .sideBtn {
+         width: 100%;
+     }
+     
+     .sideBtn ul {
+         list-style-type: none;
+     }
+     
+     .sideBtn ul li a {
+         width: 100%;
+         text-align: center;
+         margin: 0px 20px;
+         height: 100px;
+         float: right;
+         padding: 25px;
+         font-size: 35px;
+         font-family: 'Marck Script', cursive;
+         color: rgb(225, 220, 201);
+         text-decoration: none;
+         border-bottom: 2px solid white;
+     }
+     
+     .sideBtn ul li a:hover {
+         width: 100%;
+         text-align: right;
+         margin: 0px 1px;
+         height: 100px;
+         float: right;
+         padding: 25px;
+         font-size: 40px;
+         font-family: 'Marck Script', cursive;
+         color: rgb(239, 238, 234);
+         text-shadow: -5px 3px rgb(72, 19, 19);
+         border-bottom: 2px solid white;
+         transition: 0.4s;
+     }
+     
+     .cont {
+         float: left;
+         margin-left: 310px;
+     }
+     
+     .txt {
+         margin-top: 50px;
+         width: 950px;
+         font-family: 'Marck Script', cursive;
+         color: rgb(239, 238, 234);
+         text-align: center;
+     }
+     
+     .panorama {
+         margin-top: 150px;
+     }
+     
+     .panorama iframe {
+         width: 450px;
+         height: 350px;
+         margin-left: 15px;
+     }
+     
+     @media (min-width: 1700px) and (max-width: 2561px) {
+         .sidenav {
+             width: 500px;
+             height: 100%;
+         }
+         .logo a>img {
+             width: 500px;
+             height: 333px;
+         }
+         .cont {
+             margin-left: 750px;
+         }
+         .panorama iframe {
+             width: 650px;
+             height: 550px;
+             margin-left: 25px;
+         }
+     }
+     
+     @media (min-width: 1145px) and (max-width: 1250px) {
+         .panorama iframe {
+             width: 400px;
+             height: 300px;
+             margin-left: 15px;
+         }
+         .txt {
+             margin-top: 50px;
+             width: 800px;
+             font-family: 'Marck Script', cursive;
+             color: rgb(239, 238, 234);
+             text-align: center;
+         }
+     }
+     
+     @media (min-width: 1024px) and (max-width: 1146px) {
+         .panorama iframe {
+             width: 300px;
+             height: 250px;
+             margin-left: 15px;
+         }
+         .txt {
+             margin-top: 50px;
+             width: 700px;
+             font-family: 'Marck Script', cursive;
+             color: rgb(239, 238, 234);
+             text-align: center;
+         }
+     }
+     
+     @media (min-width: 994px) and (max-width: 1023px) {
+         .sidenav {
+             width: 200px;
+         }
+         .logo a>img {
+             width: 200px;
+             height: 133px;
+         }
+         .sideBtn ul li a {
+             padding: 20px;
+             font-size: 20px;
+         }
+         .panorama iframe {
+             width: 300px;
+             height: 250px;
+             margin-left: 15px;
+         }
+         .txt {
+             margin-top: 50px;
+             width: 600px;
+             font-family: 'Marck Script', cursive;
+             color: rgb(239, 238, 234);
+             text-align: center;
+         }
+         .cont {
+             margin-left: 350px;
+         }
+     }
+     
+     @media (min-width: 802px) and (max-width: 994px) {
+         .sidenav {
+             width: 200px;
+         }
+         .logo a>img {
+             width: 200px;
+             height: 133px;
+         }
+         .sideBtn ul li a {
+             padding: 20px;
+             font-size: 20px;
+         }
+         .panorama iframe {
+             width: 300px;
+             height: 250px;
+             margin-left: 5px;
+         }
+         .txt {
+             margin-top: 50px;
+             width: 500px;
+             font-family: 'Marck Script', cursive;
+             color: rgb(239, 238, 234);
+             text-align: center;
+         }
+         .cont {
+             margin-left: 180px;
+         }
+     }
+     
+     @media (min-width: 675px) and (max-width: 801px) {
+      .sidenav {
+             width: 200px;
+         }
+         .logo a>img {
+             width: 200px;
+             height: 133px;
+         }
+         .sideBtn ul li a {
+             padding: 20px;
+             font-size: 20px;
+         }
+         .panorama iframe {
+             width: 300px;
+             height: 250px;
+             margin: 5px auto;
+             display: block;
+         }
+         .txt {
+             margin-top: 50px;
+             width: 500px;
+             font-family: 'Marck Script', cursive;
+             color: rgb(239, 238, 234);
+             text-align: center;
+         }
+         .cont {
+             margin-left: 180px;
+         }
+     }
+          @media (min-width: 375px) and (max-width: 674px) {
+      .sidenav {
+             width: 200px;
+         }
+         .logo a>img {
+             width: 200px;
+             height: 133px;
+         }
+         .sideBtn ul li a {
+             padding: 20px;
+             font-size: 20px;
+         }
+         .panorama iframe {
+             width: 300px;
+             height: 250px;
+             margin: 5px auto;
+             display: block;
+         }
+         .txt {
+             margin-top: 30px;
+             width: 300px;
+             font-size: 20px;
+             font-family: 'Marck Script', cursive;
+             color: rgb(239, 238, 234);
+             text-align: center;
+         }
+         .cont {
+             margin-left: 200px;
+         }
+     }
