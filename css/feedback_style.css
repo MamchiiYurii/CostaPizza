@@ -84,9 +84,10 @@
          color: rgb(239, 238, 234);
          text-align: center;
      }
-     
-     .feedback {
+  
+  .FBfeedback {
          margin-top: 150px;
+         float: left;
      }
      
  

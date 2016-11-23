@@ -16,6 +16,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
+
+
     <title>Costa Pizza</title>
 </head>
 
@@ -38,16 +41,21 @@
         </div>
         <div class="cont">
             <div class="container">
-                <h1 class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo explicabo, possimus harum nemo error enim! Quos exercitationem rerum, vitae voluptate.</h1>
+                <h1 class="txt">Ваша думка дуже важлива для нас!</h1>
             </div>
-            <div class="feedback">
-               
-            </div>
+           
+            <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="500" data-numposts="5"><div id="fb-root"></div>
+</div>
         </div>
     </div>
 
-    <script type="text/javascript"></script>
-
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 
 </html>
